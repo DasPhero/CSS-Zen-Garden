@@ -193,9 +193,6 @@
         margin-bottom: 0;
         height: 100px;
     }
-
-    .wrapper li {
-    }
 }
 
 @media only screen and (min-width: 769px) {
@@ -290,6 +287,7 @@
             margin: 0;
             transform: translateX(10% );
             font-size: 2vw;
+            width: 90%;
         }
 
     .summary {
