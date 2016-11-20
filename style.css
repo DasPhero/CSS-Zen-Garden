@@ -6,7 +6,7 @@
     outline: solid #f00 1px !important;*/
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
     body {
         background-color: rgba(101, 215, 230, 0.1);
         color: #036803;
@@ -129,7 +129,6 @@
 
     aside {
         background-color: rgba(127, 255, 212, 0.20);
-        outline: 1px solid black;
     }
 
     .wrapper h3 {
@@ -165,163 +164,19 @@
     }
 }
 
+@media only screen and (max-width: 425px) {
+    aside {
+        outline: 1px solid black;
+    }
+}
+
 @media only screen and (min-width: 426px) and (max-width: 768px) {
-    body {
-        background-color: rgba(101, 215, 230, 0.1);
-        color: #036803;
-    }
-
-    header {
-        background-image: url("http://orig04.deviantart.net/de9f/f/2011/065/4/6/46fe5bf0af4a401e49fd43f098ef5237-d3b1f76.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: #f2f283;
-        border: 4px solid black;
-    }
-
-    h1 {
-        position: relative;
-        left: 5%;
-        font-size: 7vw;
-        margin-top: 0;
-        width: 95%;
-    }
-
-    h2 {
-        position: relative;
-        left: 35%;
-        margin-top: 15%;
-        margin-bottom: 0;
-        font-size: 4vw;
-        width: 65%;
-    }
-
-    .summary {
-        background-color: rgba(101, 215, 230, 0.2);
-        margin-top: 2%;
-        padding: 4%;
-        border: 1px solid black;
-        box-shadow: -1px -1px 20px 1px #808080;
-        border-radius: 5px;
-    }
-
-    a:hover {
-        color: #8a0101;
-    }
-
-    a:active, a:visited, a {
-        color: #ff5c1f;
-    }
-
     h3 {
-        padding: 5% 10%;
-        box-shadow: -1px -1px 20px 1px #808080;
         font-size: 4vw;
     }
-
-    [role="article"] p {
-        padding: 0 5%;
-    }
-
-    [role="article"] {
-        padding-bottom: 2%;
-    }
-
-    .preamble {
-        background-color: rgba(45, 47, 96, 0.15);
-    }
-
-        .preamble h3 {
-            color: #f2f283;
-            background-image: url("http://img15.deviantart.net/9ef7/i/2015/122/3/7/zen_feeling_by_forestgirl-d7jj91e.jpg");
-            background-position-y: 91%;
-            background-size: 100%;
-        }
-
-    .explanation {
-        background-color: rgba(255, 105, 97, 0.2);
-    }
-
-        .explanation h3 {
-            color: #f2f283;
-            background-image: url("http://img08.deviantart.net/7980/i/2005/135/1/a/red_by_jellings.jpg");
-            background-position-y: 80%;
-            background-size: 100%;
-        }
-
-    .participation {
-        background-color: rgba(160, 231, 160, 0.2);
-    }
-
-        .participation h3 {
-            color: #f2f283;
-            background-image: url("http://img09.deviantart.net/6f47/i/2014/245/4/d/together_by_arefin03-d7xpk7r.jpg");
-            background-position-y: 60%;
-            background-size: 100%;
-        }
-
-    .benefits {
-        background-color: rgba(242, 242, 131, 0.20);
-    }
-
-        .benefits h3 {
-            color: #f2f283;
-            background-image: url("http://img13.deviantart.net/56dc/i/2011/291/a/3/a_soothing_night_by_marshalbains-d4d7eov.jpg");
-            background-position-y: 60%;
-            background-size: 100%;
-        }
-
-    .requirements {
-        background-color: rgba(0, 0, 0, 0.15);
-    }
-
-        .requirements h3 {
-            color: #f2f283;
-            background-image: url("http://orig09.deviantart.net/a13f/f/2007/079/0/0/zen_by_redstonephoto.jpg");
-            background-position-y: 95%;
-            background-size: 110%;
-        }
 
     footer {
-        text-align: center;
         border-bottom: 1px solid black;
-    }
-
-    aside {
-        background-color: rgba(127, 255, 212, 0.20);
-    }
-
-    .wrapper h3 {
-        color: black;
-        background-image: url("http://orig03.deviantart.net/c257/f/2014/121/7/8/colorful_glass_by_aurorawienhold-d7gqkxq.jpg");
-        background-position-y: 92%;
-        background-size: 100%;
-    }
-
-    ul {
-        padding: 0;
-        list-style-type: none;
-    }
-
-    li {
-        padding: 1%;
-    }
-
-        li a {
-            text-decoration: none;
-        }
-
-        li:last-of-type {
-            padding-bottom: 0;
-        }
-
-        li:nth-child(even) {
-            background-color: rgba(0, 0, 0, 0.20);
-        }
-
-    .design-archives, .zen-resources, .select {
-        text-align: center;
     }
 
     .design-archives, .zen-resources, .design-selection {
